@@ -33,15 +33,16 @@
   [로그인 화면]
   [홍채 촬영 화면]
   [결과 화면] </code block> -->
-- 프로젝트 사용 기술 및 도구
-  - Android Studio
-  - Kotlin
-  - MVVM
-  - LiveData
-  - DataBinding
-  - Retrofit
-  - Glide
-  - Hongbog SDK
+- 프로젝트 사용 기술 및 도구 : ![badge](https://img.shields.io/badge/AndroidStrudio-000000?style=flat&logo=AndroidStudio&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Kotlin-000000?style=flat&logo=Kotlin&logoColor=#7F52FF), 
+![badge](https://img.shields.io/badge/MVVM-000000?style=flat&logo=MVVM&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/LiveData-000000?style=flat&logo=LiveData&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/DataBinding-000000?style=flat&logo=DataBinding&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Retrofit-000000?style=flat&logo=Retrofit&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Glide-000000?style=flat&logo=Glide&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/HongbogSDK-000000?style=flat&logo=HongbogSDK&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Git-000000?style=flat&logo=Git&logoColor=#F05032), 
+![badge](https://img.shields.io/badge/GitHub-000000?style=flat&logo=GitHub&logoColor=#181717)
 
 - 프로젝트 후기 및 소감
   - IrisCollector 프로젝트는 기존 프로젝트들의 핵심로직을 적용한 SDK를 사용하는 홍채수집 및 홍채기반 건강검진 어플리케이션으로서, 안드로이드 개발자로서 기술의 향상을 경험할 수 있었습니다.
@@ -74,14 +75,15 @@
 <code block> // 여기에 프로젝트 스크린샷을 첨부하세요. 예 [홍채 이미지 촬영 화면]
 [홍채 이미지 저장 및 관리 화면]
 [홍채 이미지 라벨링 화면] </code block> -->
-- 프로젝트 사용 기술 및 도구
-  - Android Studio
-  - Kotlin
-  - MVVM
-  - LiveData
-  - DataBinding
-  - Glide
-  - USB Camera Library
+- 프로젝트 사용 기술 및 도구 : ![badge](https://img.shields.io/badge/AndroidStrudio-000000?style=flat&logo=AndroidStudio&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Kotlin-000000?style=flat&logo=Kotlin&logoColor=#7F52FF), 
+![badge](https://img.shields.io/badge/MVVM-000000?style=flat&logo=MVVM&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/LiveData-000000?style=flat&logo=LiveData&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/DataBinding-000000?style=flat&logo=DataBinding&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Glide-000000?style=flat&logo=Glide&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/USBCameraLibrary-000000?style=flat&logo=USBCameraLibrary&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Git-000000?style=flat&logo=Git&logoColor=#F05032), 
+![badge](https://img.shields.io/badge/Bitbucket-000000?style=flat&logo=Bitbucket&logoColor=#0052CC)
 
 - 프로젝트 후기 및 소감
   - HongTools 프로젝트는 USB 카메라를 사용하는 홍채데이터 라벨링 도구 어플리케이션으로서, 안드로이드 개발자로서 새로운 도전과 경험을 할 수 있었습니다.
@@ -119,17 +121,18 @@
 [홍채 촬영 화면]
 [홍채 분석 화면]
 [결과 출력 화면] </code block> -->
-- 프로젝트 사용 기술 및 도구
-  - Android Studio
-  - Kotlin
-  - MVVM
-  - LiveData
-  - DataBinding
-  - Retrofit
-  - Glide
-  - OpenCV
-  - USB Camera Library
-  - Print Library
+- 프로젝트 사용 기술 및 도구 : ![badge](https://img.shields.io/badge/AndroidStrudio-000000?style=flat&logo=AndroidStudio&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Kotlin-000000?style=flat&logo=Kotlin&logoColor=#7F52FF), 
+![badge](https://img.shields.io/badge/MVVM-000000?style=flat&logo=MVVM&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/LiveData-000000?style=flat&logo=LiveData&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/DataBinding-000000?style=flat&logo=DataBinding&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Retrofit-000000?style=flat&logo=Retrofit&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Glide-000000?style=flat&logo=Glide&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/OpenCV-000000?style=flat&logo=OpenCV&logoColor=#5C3EE8), 
+![badge](https://img.shields.io/badge/USBCameraLibrary-000000?style=flat&logo=USBCameraLibrary&logoColor=#3DDC84),
+![badge](https://img.shields.io/badge/PrintLibrary-000000?style=flat&logo=PrintLibrary&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Git-000000?style=flat&logo=Git&logoColor=#F05032), 
+![badge](https://img.shields.io/badge/Bitbucket-000000?style=flat&logo=Bitbucket&logoColor=#0052CC)
 
 - 프로젝트 후기 및 소감
   - EyeOClockW 프로젝트는 USB카메라와 인공지능 기술을 사용하는 홍채기반 건강검진 어플리케이션으로서, 안드로이드 개발자로서 다양한 도전과 경험을 할 수 있었습니다.
@@ -157,14 +160,15 @@
   - 본인은 CozyQ 제품개발과 서비스 구현에 크게 기여하였으며, 안드로이드 어플리케이션 개발과 IoT 하드웨어/소프트웨어 개발에 대해 전문성을 키웠습니다. 또한, 서버 구현 및 구축에도 기여하였으며, 데이터베이스 관리와 빅데이터 분석에 대한 경험을 쌓았습니다. CozyQ 프로젝트를 통해 IoT분야에 대한 관심과 열정을 더욱 갖게 되었습니다.
 <!-- - 프로젝트 스크린샷
 CozyQ 어플리케이션의 주요 화면들을 첨부합니다. -->
-- 프로젝트 사용 기술 및 도구
-  - 안드로이드 스튜디오
-  - Java
-  - Arduino
-  - C/C++
-  - Node.js
-  - MySQL
-  - Git
+- 프로젝트 사용 기술 및 도구 : ![badge](https://img.shields.io/badge/AndroidStrudio-000000?style=flat&logo=AndroidStudio&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Java-000000?style=flat&logo=Java&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Arduino-000000?style=flat&logo=Arduino&logoColor=#00979D), 
+![badge](https://img.shields.io/badge/C-000000?style=flat&logo=C&logoColor=##A8B9CC), 
+![badge](https://img.shields.io/badge/C++-000000?style=flat&logo=C++&logoColor=#00599C), 
+![badge](https://img.shields.io/badge/Node.js-000000?style=flat&logo=Node.js&logoColor=#339933), 
+![badge](https://img.shields.io/badge/MySQL-000000?style=flat&logo=MySQL&logoColor=#4479A1), 
+![badge](https://img.shields.io/badge/Git-000000?style=flat&logo=Git&logoColor=#F05032), 
+![badge](https://img.shields.io/badge/Bitbucket-000000?style=flat&logo=Bitbucket&logoColor=#0052CC)
 
 - 프로젝트 후기 및 소감
  - CozyQ 프로젝트는 본인에게 많은 도전과 성장의 기회였습니다.
@@ -192,14 +196,15 @@ CozyQ 어플리케이션의 주요 화면들을 첨부합니다. -->
   - 지오펜스 기능을 안드로이드 앱에 구현하여 등록된 도어락이 설치된 지역의 출입상태에 대한 로직을 구현하였습니다.
 <!-- - 프로젝트 스크린샷
 (도어락제품의 사진과 안드로이드 앱의 화면을 첨부하세요.) -->
-- 프로젝트 사용 기술 및 도구
-  - 안드로이드 스튜디오
-  - 자바
-  - GPS를 포함하여 지리 위치를 특정하기 위한 여러 library 등
-  - 아두이노 IDE
-  - C/C++
-  - 통신모듈, 배터리관련 모듈 등
-  - CAD 소프트웨어
+- 프로젝트 사용 기술 및 도구 : ![badge](https://img.shields.io/badge/AndroidStrudio-000000?style=flat&logo=AndroidStudio&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Java-000000?style=flat&logo=Java&logoColor=#3DDC84), 
+![badge](https://img.shields.io/badge/Arduino-000000?style=flat&logo=Arduino&logoColor=#00979D), 
+![badge](https://img.shields.io/badge/C-000000?style=flat&logo=C&logoColor=##A8B9CC), 
+![badge](https://img.shields.io/badge/C++-000000?style=flat&logo=Cplusplus&logoColor=#00599C), 
+![badge](https://img.shields.io/badge/Bluetooth-000000?style=flat&logo=Bluetooth&logoColor=#0082FC), 
+![badge](https://img.shields.io/badge/Rhinoceros-000000?style=flat&logo=Rhinoceros&logoColor=#801010), 
+![badge](https://img.shields.io/badge/Git-000000?style=flat&logo=Git&logoColor=#F05032), 
+![badge](https://img.shields.io/badge/Bitbucket-000000?style=flat&logo=Bitbucket&logoColor=#0052CC)
 
 - 프로젝트 후기 및 소감
   - 이 프로젝트를 통해 스마트도어락 제품개발에 필요한 다양한 기술과 도구를 학습하고 적용할 수 있었습니다. 안드로이드 앱 개발뿐만 아니라 하드웨어와 펌웨어 개발에도 참여하여 전체적인 제품개발 과정을 이해하고 경험할 수 있었습니다.
