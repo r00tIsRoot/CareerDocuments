@@ -156,7 +156,7 @@ CozyQ 어플리케이션의 주요 화면들을 첨부합니다. -->
 ![badge](https://img.shields.io/badge/Java-000000?style=flat&logo=Java&logoColor=#3DDC84), 
 ![badge](https://img.shields.io/badge/Arduino-000000?style=flat&logo=Arduino&logoColor=#00979D), 
 ![badge](https://img.shields.io/badge/C-000000?style=flat&logo=C&logoColor=##A8B9CC), 
-![badge](https://img.shields.io/badge/C++-000000?style=flat&logo=C++&logoColor=#00599C), 
+![badge](https://img.shields.io/badge/C++-000000?style=flat&logo=Cplusplus&logoColor=#00599C), 
 ![badge](https://img.shields.io/badge/Node.js-000000?style=flat&logo=Node.js&logoColor=#339933), 
 ![badge](https://img.shields.io/badge/MySQL-000000?style=flat&logo=MySQL&logoColor=#4479A1), 
 ![badge](https://img.shields.io/badge/Git-000000?style=flat&logo=Git&logoColor=#F05032), 
