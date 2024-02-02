@@ -97,7 +97,13 @@
   얘기하고자 하는 경험은 발로소득이라는 서비스가 출시하는 시점부터 존재했으며, Firebase Crashlytics를 통해 보고되는 crash 이슈 중 3/4이상의 독보적인 점유율을 보이던 죽지않는 서비스와 관련된 이슈 해결 경험입니다.
   프로젝트 참여 초기부터 foreground service에 등록하는 notification의 레이아웃 resource의 내용이 코드의 내용과 달랐고, 적용한 resource의 id를 로그로 확인 결과 기기에 설치되었던 이전 버전의 앱에 비해 레이아웃 리소스가 추가 및 삭제되어 resourceId가 변경되었음에도 이전 버전의 resourceId로 참고되는 점을 확인했습니다.
   이를 기반으로 foregroundService에 등록한 notification과 관련된 무언가가 앱을 삭제 혹은 재설치 함에도 남아있다고 판단하여 관련된 여러 가능성들을 검토해보았으나, 얻은 결과는 시점을 잡을 수 없는 이전 버전이 제거되기 전에 해당 service notification을 cancel시키는 방법만 얻은채로 해결에 실패했습니다.
-  이후 거듭된 여러 방법들의 시도 끝에 serviceNotification에 
+  이후 거듭된 여러 방법들의 시도 끝에 service를 시작할 때 필요한 notification에는 기본적인 notification을 등록하고 update 되는 notification을 기존에 사용되던 customNotification을 사용하도록 하여 기존 기능을 유지하되 기존에 노티에서 보여주던 내용은 별도 노티로 제공하도록 하여 해결 했습니다.
+
+  가장 최근 경험 했던 실패와 성취는 serviceNotification과 관련된 경험으로 서비스 시작부터 존재했으며, 팀원 모두가 해결을 위해 장시간 노력했으나 모두 실패하였음에도 전체 크래시의 양의 75%이상 되는 점유율을 가지고 있어 지지부진 하던 이슈의 해결이었습니다. 
+  입사 후 업무파악 시점부터 해당 이슈의 존재를 인지하고 모든 팀원들과 몇주씩 밤늦은 시간까지 매달려보기도 했지만 개발자가 컨트롤 할 수 없는 시점에 해당 notification을 취소시키는 방법 뿐으로 해결에 실패했었습니다.
+  이렇게 모든 팀원들은 해당 이슈의 해결을 포기하는 상황속에서 해결을 위해 지속적으로 연관된 이슈를 찾고 시도해보기를 반복 했고, 결국 찾아낸 해결방안은 발상의 전환이었습니다.
+  등록하던 notification이 customLayout이기에 이전의 resourceId가 남아 문제가 되기에 service에 등록하는 notification을 기본 notification으로 등혹하고, 이후 업데이트시에는 별도의 notification을 등록하도록 하여 서비스가 serviceNotification을 갱신하지 못해 service를 실행시키지 못하는 현상을 해결하고, 사용자에게는 notification을 통해 기존대로 정보를 제공할 수 있었습니다.
+  이렇든 일견 불가능해보이는 문제도 실패속에서 포기하지 않고, 끊임없는 고민속에서 생겨난 새로운 생각을 실행이라는 도전을 거듭하여 해결해낸 저의 경험이었습니다.
 
   ---
 
